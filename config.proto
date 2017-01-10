@@ -1,0 +1,16 @@
+encoding "utf8";
+
+TTextMinerConfig {
+
+    // Корневой словарь
+    Dictionary = "segmentator_dict.gzt";
+
+    // Формат вывода данных
+    Output = {
+        Format = text;
+    }
+
+    // Количество потоков
+    //NumThreads = 4;
+
+}
