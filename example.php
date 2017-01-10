@@ -57,7 +57,7 @@ class TomitaParser
      */
     public function processTextResult($text)
     {
-        return explode("\n", $text);
+        return array_filter(explode("\n", $text));
     }
 
 }
